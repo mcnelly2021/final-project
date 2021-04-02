@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Addbook">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:text="Add a book"
+            android:textColor="#6C6262"
+            android:textSize="30dp"/>
+
+<ImageView
+    android:id="@+id/img"
+    android:onClick="camera"
+    android:src="@drawable/ic_add_a_photo_black_24dp"
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:background="#575050"
+    android:layout_height="250dp"
+    android:layout_marginBottom="5dp"
+    />
+
+        <EditText
+            android:id="@+id/title"
+            android:layout_width="276dp"
+            android:layout_height="40dp"
+            android:layout_margin="2dp"
+            android:background="@drawable/textfil"
+            android:ems="18"
+            android:fontFamily="monospace"
+            android:gravity="center"
+            android:hint="Title"
+            android:inputType="textPersonName"
+            android:textFontWeight="@android:integer/config_longAnimTime"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/author"
+            android:layout_width="276dp"
+            android:layout_height="40dp"
+            android:layout_margin="2dp"
+            android:background="@drawable/textfil"
+            android:ems="18"
+            android:fontFamily="monospace"
+            android:gravity="center"
+            android:hint="Author"
+            android:inputType="textPersonName"
+            android:textFontWeight="@android:integer/config_longAnimTime"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/isbn"
+            android:layout_width="276dp"
+            android:layout_height="40dp"
+            android:layout_margin="2dp"
+            android:background="@drawable/textfil"
+            android:ems="18"
+            android:fontFamily="monospace"
+            android:gravity="center"
+            android:hint="ISBN"
+            android:inputType="textPersonName"
+            android:textFontWeight="@android:integer/config_longAnimTime"
+            android:textSize="20dp" />
+
+
+        <EditText
+            android:id="@+id/classs"
+            android:layout_width="276dp"
+            android:layout_height="40dp"
+            android:layout_margin="2dp"
+            android:background="@drawable/textfil"
+            android:ems="18"
+            android:fontFamily="monospace"
+            android:gravity="center"
+            android:hint="Class"
+            android:inputType="textPersonName"
+            android:textFontWeight="@android:integer/config_longAnimTime"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/condition"
+            android:layout_width="276dp"
+            android:layout_height="40dp"
+            android:layout_margin="2dp"
+            android:background="@drawable/textfil"
+            android:ems="18"
+            android:fontFamily="monospace"
+            android:gravity="center"
+            android:hint="Condition"
+            android:inputType="textPersonName"
+            android:textFontWeight="@android:integer/config_longAnimTime"
+            android:textSize="20dp" />
+
+
+        <EditText
+            android:id="@+id/price"
+            android:layout_width="276dp"
+            android:layout_height="40dp"
+            android:layout_margin="2dp"
+            android:background="@drawable/textfil"
+            android:ems="18"
+            android:fontFamily="monospace"
+            android:gravity="center"
+            android:hint="Price"
+            android:inputType="textPersonName"
+            android:textFontWeight="@android:integer/config_longAnimTime"
+            android:textSize="20dp" />
+
+
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="276dp"
+            android:layout_height="40dp"
+            android:layout_margin="2dp"
+            android:background="@drawable/textfil"
+            android:ems="18"
+            android:fontFamily="monospace"
+            android:gravity="center"
+            android:hint="Phone"
+            android:inputType="phone"
+            android:textFontWeight="@android:integer/config_longAnimTime"
+            android:textSize="20dp" />
+
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="200dp"
+            android:layout_height="45dp"
+            android:layout_margin="10dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/round"
+            android:fontFamily="monospace"
+            android:text="Register"
+            android:onClick="addbook"
+            android:textColor="#ffffff"
+            android:textSize="18dp" />
+
+
+    </LinearLayout>
+</ScrollView>
